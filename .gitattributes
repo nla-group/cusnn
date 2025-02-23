@@ -3,3 +3,5 @@
 *.makefile linguist-documentation=false
 Makefile linguist-detectable=false
 *.txt linguist-detectable=false
+Makefile.in linguist-generated=false
+Makefile linguist-generated=false
