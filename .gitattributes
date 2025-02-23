@@ -1,3 +1,4 @@
 *.cpp linguist-detectable=false
-build/* linguist-detectable=false
+*.makefile linguist-detectable=false
+*.makefile linguist-documentation=false
 *.txt linguist-detectable=false
