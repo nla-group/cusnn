@@ -1,3 +1,4 @@
+build/* linguist-vendored
 *.cpp linguist-detectable=false
 *.makefile linguist-detectable=false
 *.makefile linguist-documentation=false
