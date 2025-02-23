@@ -9,7 +9,6 @@
 template <class T>
 void print_data(T* data, int n, int d) {
     std::vector<T> h_data(n * d);
-    CHECK_CUDA(cudaMemcpy(h_data.data(), data, n * d * sizeof(T), cudaMemcpyDeviceToHost));
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < d; j++) {
             std::cout << std::setw(3) << std::setprecision(3) << h_data[i * d + j] << "   ";
