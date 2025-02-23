@@ -1,3 +1,3 @@
 *.cpp linguist-detectable=false
-Makefile linguist-detectable=false
+build/* linguist-detectable=false
 *.txt linguist-detectable=false
