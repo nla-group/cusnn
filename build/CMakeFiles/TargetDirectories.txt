@@ -1,3 +1,0 @@
-/home/xinye/snn/gpu/build/CMakeFiles/snn.dir
-/home/xinye/snn/gpu/build/CMakeFiles/edit_cache.dir
-/home/xinye/snn/gpu/build/CMakeFiles/rebuild_cache.dir
