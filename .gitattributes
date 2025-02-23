@@ -1,4 +1,5 @@
 *.cpp linguist-detectable=false
 *.makefile linguist-detectable=false
 *.makefile linguist-documentation=false
+Makefile linguist-detectable=false
 *.txt linguist-detectable=false
