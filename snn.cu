@@ -30,8 +30,8 @@ SOFTWARE.
 #include <algorithm>
 #include <iomanip>
 
-#define __DEBUG__
-#define __CHECK_DOUBLE__
+// #define __DEBUG__
+// #define __CHECK_DOUBLE__
 
 
 #if defined(__DEBUG__)
@@ -563,7 +563,7 @@ std::vector<std::vector<int>> SNN_DOUBLE::query_radius_batch(const DOUBLE* new_d
     CHECK_CUDA(cudaFree(d_dot_products));
     return all_indices;
 }
-
+/*
 #if defined(__DEBUG__) && defined( __CHECK_DOUBLE__)
 int main() {
 
@@ -682,3 +682,4 @@ int main() {
     return 0;
 }
 #endif
+*/
