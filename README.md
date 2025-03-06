@@ -30,7 +30,7 @@ To build and run CUSNN, follow these steps:
    ```bash
    git clone https://github.com/nla-group/cusnn.git
    cd cusnn
-
+  ```
 
 2. Compile:
 
