@@ -1,11 +1,9 @@
 # CUSNN - CUDA-based Fast Exact Nearest Neighbor Search Algorithm
 
-CUSNN (CUDA-based SNN Exact Nearest Neighbor Search) is a high-performance algorithm designed to perform fast and precise nearest neighbor searches on large datasets. By leveraging the full power of CUDA, CUSNN accelerates the search process, utilizing search space pruning, efficient memory management and advanced optimization techniques. This makes it ideal for applications where both accuracy and speed are critical, such as in large-scale data analysis and high-dimensional search tasks.
+CUSNN (CUDA-based SNN Exact Nearest Neighbor Search) is a high-performance algorithm designed to perform fast and precise nearest neighbor searches on large datasets. Unlike approximate search methods, CUSNN ensures that the results are exact, making it suitable for applications that require high precision and reliability. By leveraging the full power of CUDA, CUSNN accelerates the search process, utilizing search space pruning, efficient memory management and advanced optimization techniques. This makes it ideal for applications where both accuracy and speed are critical, such as in large-scale data analysis and high-dimensional search tasks.
 
 ## Key Features
 
-- **Exact Nearest Neighbor Search**: Unlike approximate search methods, CUSNN ensures that the results are exact, making it suitable for applications that require high precision and reliability.
-  
 - **CUDA Optimization**: CUSNN takes of GPU parallelism, significantly speeding up the nearest neighbor search process. The algorithm is designed to run efficiently on modern CUDA-capable hardware, ensuring high throughput even with large datasets.
 
 - **Continuous Memory Indexing**: CUSNN uses continuous memory indexing to optimize data access patterns. This approach ensures that memory accesses are coalesced and efficient, reducing the overhead caused by scattered memory accesses. By ensuring that data is stored in contiguous memory blocks, CUSNN minimizes memory latency and maximizes GPU utilization.
