@@ -1,0 +1,1 @@
+-I/home/xinye/cusnn/include -I/home/xinye/cusnn/./include -isystem "/software/cuda/12.5/targets/x86_64-linux/include"

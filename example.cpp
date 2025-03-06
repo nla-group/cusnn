@@ -6,6 +6,8 @@
 
 #define __CHECK_DOUBLE__
 
+typedef double DOUBLE;
+
 template <class T>
 void print_data(T* data, int n, int d) {
     std::vector<T> h_data(n * d);

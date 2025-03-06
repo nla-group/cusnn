@@ -1,0 +1,1 @@
+  -L"/software/cuda/12.5/targets/x86_64-linux/lib/stubs"  -L"/software/cuda/12.5/targets/x86_64-linux/lib"   "/software/cuda/12.5/targets/x86_64-linux/lib/libculibos.a" -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

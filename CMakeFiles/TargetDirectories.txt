@@ -1,0 +1,3 @@
+/home/xinye/cusnn/CMakeFiles/CUSNN.dir
+/home/xinye/cusnn/CMakeFiles/edit_cache.dir
+/home/xinye/cusnn/CMakeFiles/rebuild_cache.dir
