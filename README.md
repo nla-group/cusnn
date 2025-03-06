@@ -6,7 +6,7 @@ CUSNN (CUDA-based SNN Exact Nearest Neighbor Search) is a high-performance algor
 
 - **Exact Nearest Neighbor Search**: Unlike approximate search methods, CUSNN ensures that the results are exact, making it suitable for applications that require high precision and reliability.
   
-- **CUDA Optimization**: CUSNN takes full advantage of GPU parallelism, significantly speeding up the nearest neighbor search process. The algorithm is designed to run efficiently on modern CUDA-capable hardware, ensuring high throughput even with large datasets.
+- **CUDA Optimization**: CUSNN takes of GPU parallelism, significantly speeding up the nearest neighbor search process. The algorithm is designed to run efficiently on modern CUDA-capable hardware, ensuring high throughput even with large datasets.
 
 - **Continuous Memory Indexing**: CUSNN uses continuous memory indexing to optimize data access patterns. This approach ensures that memory accesses are coalesced and efficient, reducing the overhead caused by scattered memory accesses. By ensuring that data is stored in contiguous memory blocks, CUSNN minimizes memory latency and maximizes GPU utilization.
 
