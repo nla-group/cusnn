@@ -1,9 +1,6 @@
 # Minimum CMake version required
 cmake_minimum_required(VERSION 3.18)
 
-# Project name and languages
-project(SNN LANGUAGES CXX CUDA)
-
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,13 +12,10 @@ set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 # Find CUDA package
 find_package(CUDAToolkit REQUIRED)
 
-# Define the executable with both CUDA and C++ sources
 add_executable(snn snn.cu example.cpp)
 
-# Include directories (current directory for snn.h)
 target_include_directories(snn PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
-# Link against CUDA and cuBLAS libraries
 target_link_libraries(snn PRIVATE CUDA::cudart CUDA::cublas)
 
 # Set CUDA properties
