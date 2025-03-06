@@ -30,3 +30,29 @@ To build and run CUSNN, follow these steps:
    ```bash
    git clone https://github.com/nla-group/cusnn.git
    cd cusnn
+
+
+2. Compile:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+3. Run the example test
+```bash
+./CUSNN
+```
+
+
+
+### License
+All the content in this repository is licensed under the MIT License. 
+
+
+## Reference
+
+Chen X, Güttel S. 2024. Fast and exact fixed-radius neighbor search based on sorting. PeerJ Computer Science 10:e1929 https://doi.org/10.7717/peerj-cs.1929
+```
