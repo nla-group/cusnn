@@ -41,11 +41,11 @@ cmake ..
 make
 ```
 
-3. Run the example test
-```bash
-./CUSNN
-```
+3. To link CUSNN with your code, simply: 
 
+```bash
+nvcc example.cpp -o example -lcublas -lcusnn -I./include -L./build
+```
 
 
 ### License
