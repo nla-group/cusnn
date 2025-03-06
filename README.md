@@ -1,6 +1,6 @@
 # CUSNN - CUDA-based Fast Exact Nearest Neighbor Search Algorithm
 
-CUSNN (CUDA-based Exact Nearest Neighbor Search) is a high-performance algorithm designed to perform fast and precise nearest neighbor searches on large datasets. By leveraging the full power of CUDA, CUSNN accelerates the search process, utilizing efficient memory management and advanced optimization techniques. This makes it ideal for applications where both accuracy and speed are critical, such as in large-scale data analysis and high-dimensional search tasks.
+CUSNN (CUDA-based SNN Exact Nearest Neighbor Search) is a high-performance algorithm designed to perform fast and precise nearest neighbor searches on large datasets. By leveraging the full power of CUDA, CUSNN accelerates the search process, utilizing efficient memory management and advanced optimization techniques. This makes it ideal for applications where both accuracy and speed are critical, such as in large-scale data analysis and high-dimensional search tasks.
 
 ## Key Features
 
