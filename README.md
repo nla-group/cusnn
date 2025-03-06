@@ -25,10 +25,10 @@ Before building CUSNN, make sure you have the following tools installed:
 To build and run CUSNN, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/nla-group/cusnn.git
-   cd cusnn
-  ```
+```bash
+git clone https://github.com/nla-group/cusnn.git
+cd cusnn
+```
 
 2. Compile:
 
